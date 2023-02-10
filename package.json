@@ -6,12 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "buildTailwind": "tailwindcss -i ./src/styles/input.css -o ./src/styles/main.css",
+    "watch": "tailwindcss -i ./src/styles/input.css -o ./src/styles/main.css --watch"
   },
   "dependencies": {
     "@next/font": "13.1.6",
+    "@reduxjs/toolkit": "^1.9.2",
+    "framer-motion": "^9.0.2",
     "next": "13.1.6",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1"
   }
 }
