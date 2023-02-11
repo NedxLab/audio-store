@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { headphones } from "@/data/headphones";
 import { AiOutlineHeart } from "react-icons/ai";
-import Button from "./Button";
+
 import { useSelector, useDispatch } from "react-redux";
 import { addToCart } from "@/features/CartSlice";
 
@@ -29,24 +29,19 @@ const Headphones = () => {
             <AiOutlineHeart className="absolute z-10 top-[1.1rem] right-[1.1rem]" />
             <div className="flex flex-row space-x-7">
               <h2 className="capitalize text-sm font-bold">{item.name}</h2>
-              <h4 className="text-sm">{item.price}</h4>
+              <h4 className="text-sm">${item.price}</h4>
             </div>
 
-            <small
-              onClick={() => {
-                dispatch(addToCart());
-              }}
-            >
-              {item.desc.slice(0, 25)}...
-            </small>
+            <small>{item.desc.slice(0, 25)}...</small>
 
-            <Button
-              link={"/headphones"}
-              type={"primary"}
-              className="rounded-2xl"
+            <button
+              onClick={() => {
+                dispatch(addToCart(item.name));
+              }}
+              className=" p-1  text-[#191919] border-2 rounded-2xl border-[#191919] text-sm font-bold hover:bg-[#191919] hover:text-white"
             >
               Add to Cart
-            </Button>
+            </button>
           </div>
         ))}
       </section>

@@ -22,9 +22,10 @@ import headphone19 from "../assets/headphones/headphone19.png";
 export const headphones = [
   {
     image: headphone,
-    price: "$870",
+    price: 870,
     name: "Mexa IIFE",
     desc: "Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker system that offers truly wireless connectivity -- creating new possibilities for more pleasing and practical audio setups.",
+    quantity: 1,
     features: [
       "Speaker unit",
       "Speaker cloth panel",
@@ -35,9 +36,10 @@ export const headphones = [
   },
   {
     image: headphone1,
-    price: "$700",
+    price: 700,
     name: "Z29 Buca-sound",
     desc: "Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker system that offers truly wireless connectivity -- creating new possibilities for more pleasing and practical audio setups.",
+    quantity: 1,
     features: [
       "Speaker unit",
       "Speaker cloth panel",
@@ -48,9 +50,10 @@ export const headphones = [
   },
   {
     image: headphone2,
-    price: "$400",
+    price: 400,
     name: "H260 BE",
     desc: "Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker system that offers truly wireless connectivity -- creating new possibilities for more pleasing and practical audio setups.",
+    quantity: 1,
     features: [
       "Speaker unit",
       "Speaker cloth panel",
@@ -61,9 +64,10 @@ export const headphones = [
   },
   {
     image: headphone3,
-    price: "$3,500",
+    price: 3500,
     name: "P29 Audio",
     desc: "Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker system that offers truly wireless connectivity -- creating new possibilities for more pleasing and practical audio setups.",
+    quantity: 1,
     features: [
       "Speaker unit",
       "Speaker cloth panel",
@@ -74,9 +78,10 @@ export const headphones = [
   },
   {
     image: headphone4,
-    price: "$500",
+    price: 500,
     name: "Double D2",
     desc: "Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker system that offers truly wireless connectivity -- creating new possibilities for more pleasing and practical audio setups.",
+    quantity: 1,
     features: [
       "Speaker unit",
       "Speaker cloth panel",
@@ -87,9 +92,10 @@ export const headphones = [
   },
   {
     image: headphone5,
-    price: "$1,000",
+    price: 1000,
     name: "Triple D2",
     desc: "Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker system that offers truly wireless connectivity -- creating new possibilities for more pleasing and practical audio setups.",
+    quantity: 1,
     features: [
       "Speaker unit",
       "Speaker cloth panel",
@@ -100,9 +106,10 @@ export const headphones = [
   },
   {
     image: headphone6,
-    price: "$1,500",
+    price: 1500,
     name: "M29 Bazz",
     desc: "Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker system that offers truly wireless connectivity -- creating new possibilities for more pleasing and practical audio setups.",
+    quantity: 1,
     features: [
       "Speaker unit",
       "Speaker cloth panel",
@@ -113,9 +120,10 @@ export const headphones = [
   },
   {
     image: headphone7,
-    price: "$2,900",
+    price: 2900,
     name: "Triple Bazz",
     desc: "Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker system that offers truly wireless connectivity -- creating new possibilities for more pleasing and practical audio setups.",
+    quantity: 1,
     features: [
       "Speaker unit",
       "Speaker cloth panel",
@@ -126,9 +134,10 @@ export const headphones = [
   },
   {
     image: headphone8,
-    price: "$600",
+    price: 600,
     name: "Auto Mtune",
     desc: "The SteelSeries Arctis 9X are wireless gaming headphones that are compatible with Xbox One consoles. These comfortable over-ears have a neutral sound profile and a long 28-hour continuous battery life. However, their audio delivery isn't very consistent across different users.",
+    quantity: 1,
     features: [
       "Speaker unit",
       "Speaker cloth panel",
@@ -139,9 +148,10 @@ export const headphones = [
   },
   {
     image: headphone9,
-    price: "$1,000",
+    price: 1000,
     name: "Brainwavz Koel",
     desc: "Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker system that offers truly wireless connectivity -- creating new possibilities for more pleasing and practical audio setups.",
+    quantity: 1,
     features: [
       "Speaker unit",
       "Speaker cloth panel",
@@ -152,9 +162,10 @@ export const headphones = [
   },
   {
     image: headphone10,
-    price: "$900",
+    price: 900,
     name: "Pretty Koel",
     desc: "Brainwavz has been hard at work over the past year, having released the HM100 headphones, the BLU-300 Bluetooth earphones, and the Zeta budget earphones over the past 12 months. But we are reviewing none of those today – instead, we'll be taking a look at their latest release, the Koel..",
+    quantity: 1,
     features: [
       "Speaker unit",
       "Speaker cloth panel",
@@ -165,9 +176,10 @@ export const headphones = [
   },
   {
     image: headphone11,
-    price: "$1,800",
+    price: 1800,
     name: "MEE Audio Pinnacle P2",
     desc: "Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker system that offers truly wireless connectivity -- creating new possibilities for more pleasing and practical audio setups.",
+    quantity: 1,
     features: [
       "Speaker unit",
       "Speaker cloth panel",
@@ -178,9 +190,10 @@ export const headphones = [
   },
   {
     image: headphone12,
-    price: "$1,920",
+    price: 1920,
     name: "Black Tie Optional",
     desc: "Not too long ago, an earphone design arms race reached a fever pitch. This race challenged IEM designers to cram as many drivers (speaker units) as they could into a single earpiece. This resulted in such incredible earphones as the JH Audio JH16 (with 8 drivers per side) and the Noble Kaiser 10 (with 10 drivers per side). ",
+    quantity: 1,
     features: [
       "Speaker unit",
       "Speaker cloth panel",
@@ -191,9 +204,10 @@ export const headphones = [
   },
   {
     image: headphone13,
-    price: "$1,600",
+    price: 1600,
     name: "JH Audio JH16",
     desc: "Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker system that offers truly wireless connectivity -- creating new possibilities for more pleasing and practical audio setups.",
+    quantity: 1,
     features: [
       "Speaker unit",
       "Speaker cloth panel",
@@ -204,9 +218,10 @@ export const headphones = [
   },
   {
     image: headphone14,
-    price: "$2,000",
+    price: 2000,
     name: "KZ ZS10",
     desc: "Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker system that offers truly wireless connectivity -- creating new possibilities for more pleasing and practical audio setups.",
+    quantity: 1,
     features: [
       "Speaker unit",
       "Speaker cloth panel",
@@ -217,9 +232,10 @@ export const headphones = [
   },
   {
     image: headphone15,
-    price: "$1,200",
+    price: 1200,
     name: "MEE Audio BTC1",
     desc: "Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker system that offers truly wireless connectivity -- creating new possibilities for more pleasing and practical audio setups.",
+    quantity: 1,
     features: [
       "Speaker unit",
       "Speaker cloth panel",
@@ -230,9 +246,10 @@ export const headphones = [
   },
   {
     image: headphone16,
-    price: "$5,000",
+    price: 5000,
     name: "MEE Audio M6 PRO Generation 2",
     desc: "The MEE Audio M6 has grown quite a bit over the years. It started out as an affordable, sport-oriented earphone dubbed the Sport-Fi M6, which was later retooled and released as the M6 PRO, marketed for performers and musicians. The success of the M6 PRO eventually led to the release of the M7 PRO, a higher-end pro audio model with a hybrid two-driver design.",
+    quantity: 1,
     features: [
       "Speaker unit",
       "Speaker cloth panel",
@@ -243,9 +260,10 @@ export const headphones = [
   },
   {
     image: headphone17,
-    price: "$1,000",
+    price: 1000,
     name: "M12 Stereo",
     desc: "Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker system that offers truly wireless connectivity -- creating new possibilities for more pleasing and practical audio setups.",
+    quantity: 1,
     features: [
       "Speaker unit",
       "Speaker cloth panel",
@@ -256,9 +274,10 @@ export const headphones = [
   },
   {
     image: headphone18,
-    price: "$1,000",
+    price: 1000,
     name: "Stereo Astro",
     desc: "Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker system that offers truly wireless connectivity -- creating new possibilities for more pleasing and practical audio setups.",
+    quantity: 1,
     features: [
       "Speaker unit",
       "Speaker cloth panel",
@@ -269,9 +288,10 @@ export const headphones = [
   },
   {
     image: headphone19,
-    price: "$1,000",
+    price: 1000,
     name: "JBL m17",
     desc: "Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker system that offers truly wireless connectivity -- creating new possibilities for more pleasing and practical audio setups.",
+    quantity: 1,
     features: [
       "Speaker unit",
       "Speaker cloth panel",
