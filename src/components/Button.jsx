@@ -6,7 +6,7 @@ const Button = ({ link, type, children }) => {
   switch (type) {
     case "primary":
       return (
-        <button className="h-[48px] w-[160px] bg-[#D87D4A] text-subtitle font-bold text-white hover:bg-[#FBAF85] uppercase">
+        <button className=" p-1  text-[#191919] border-2 rounded-2xl border-[#191919] text-sm font-bold hover:bg-[#191919] hover:text-white ">
           <Link href={!link === true ? "/" : link}>{children}</Link>
         </button>
       );

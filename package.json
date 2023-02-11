@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "buildTailwind": "tailwindcss -i ./src/styles/input.css -o ./src/styles/main.css",
-    "watch": "tailwindcss -i ./src/styles/input.css -o ./src/styles/main.css --watch"
+    "watch": "npx tailwindcss -i  ./src/styles/input.css -o ./src/styles/main.css --watch"
   },
   "dependencies": {
     "@next/font": "13.1.6",
@@ -17,6 +17,11 @@
     "next": "13.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-icons": "^4.7.1"
+    "react-icons": "^4.7.1",
+    "react-redux": "^8.0.5"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0"
   }
 }
