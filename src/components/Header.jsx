@@ -2,8 +2,10 @@ import Image from "next/image";
 import cart from "../assets/shared/desktop/icon-cart.svg";
 import logo from "../assets/headphones/headphone12.png";
 import Link from "next/link";
+import { useSelector } from "react-redux";
 
 const Header = () => {
+  const amount = useSelector((store) => store.cart.amount);
   return (
     <>
       <div className="flex flex-row justify-around items-center">
@@ -24,7 +26,10 @@ const Header = () => {
             <Link href={"/explore"}>Explore</Link>
           </li>
         </ul>
-        <Image src={cart} alt="Cart" />
+        <div className="relative">
+          <Image src={cart} alt="Cart" />
+          <p className="absolute top-0 right-0 text-[#ad6161]">{amount}</p>
+        </div>
       </div>
       <hr />
     </>
